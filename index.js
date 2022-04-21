@@ -2,16 +2,17 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 const generateReadme = (data) =>
-  `
-  Application Name: ${data.title}
-  Application Description: ${data.description}
-  Table of Contents: ${data.tableOfContents}
-  Installation Instructions: ${data.installation}
-  Usage Information: ${data.usage}
-  Contribution Guidelines: ${data.contribution} 
-  Tests: ${data.test}
-  Choose a license for your application: ${data.license}   
-  LinkedIn: ${data.linkedin}`;
+  `# ${data.title}
+  ![image](https://img.shields.io/badge/License-${data.license}-red)  
+  Application Description: ${data.description}  
+  Table of Contents: ${data.tableOfContents}  
+  Installation Instructions: ${data.installation}  
+  Usage Information: ${data.usage}  
+  Contribution Guidelines: ${data.contribution}     
+  Tests: ${data.test}  
+  License for Application: ${data.license}   
+  Questions: Please contact me at https://github.com/${data.github} or e-mail me at ${data.email}  
+  `;
 
 inquirer
   .prompt([
@@ -23,28 +24,28 @@ inquirer
     {
       type: "input",
       name: "description",
-      message: "Describe your project.",
+      message: "Describe your project:",
     },
     {
       type: "input",
       name: "tableOfContents",
-      message: "Enter table of contents for your project.",
+      message: "Enter table of contents for your project:",
     },
     {
       type: "input",
       name: "installation",
       message:
-        "Describe any necessary instructions for installation for your project.",
+        "Describe any necessary instructions for installation for your project:",
     },
     {
       type: "input",
       name: "usage",
-      message: "Enter usage information.",
+      message: "Enter usage information:",
     },
     {
       type: "input",
       name: "contribution",
-      message: "Enter contribution guidelines.",
+      message: "Enter contribution guidelines:",
     },
     {
       type: "input",
@@ -54,18 +55,18 @@ inquirer
     {
       type: "list",
       name: "license",
-      message: "Which license do you choose for your application?",
-      choices: ["License Type 1", "License Type 2", "License Type 3"],
+      message: "What is the license for your application?",
+      choices: ["BSD", "MIT", "GPL"],
     },
     {
       type: "input",
       name: "github",
-      message: "Enter your github username",
+      message: "Enter your github username:",
     },
     {
       type: "input",
       name: "email",
-      message: "Enter your email",
+      message: "Enter your email:",
     },
   ])
   .then((answers) => {
