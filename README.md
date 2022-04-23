@@ -12,7 +12,7 @@
 - [Contribution Guidelines](#contribution)
 - [Tests](#tests)
 - [License for Application](#license)
-- [Questions](#questions)
+- [Questions](#questions:)
 
 ## Description:
 
@@ -32,4 +32,6 @@ a
 
 ## License for Application: BSD
 
-## Questions: Please contact me at https://github.com/a or e-mail me at a
+## Questions:
+
+Please contact me at https://github.com/a or e-mail me at a
