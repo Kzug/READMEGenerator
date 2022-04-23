@@ -24,7 +24,7 @@
 
 ## Usage Information: fsdafiishiewahfiwaefhiewafhiweafheiwahfewaif
 
-## Contribution Guidelines: ehfiahfeahfoheasofhesofhaseofhishfoawhfewahf
+## Contribution Guidelines
 
 ## Tests: ffffffffffffffffffff aaaaaaaaaaaaaaaaaa bbbbbbbbbbbb
 
