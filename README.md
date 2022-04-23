@@ -9,7 +9,7 @@
 - [Challenges](#challenges)
 - [Installation Instructions](#installation)
 - [Usage Information](#usage)
-- [Contribution Guidelines](#contribution)
+- [Contribution Guidelines](#contribution-guidelines)
 - [Tests](#tests)
 - [License for Application](#license)
 - [Questions](#questions)
