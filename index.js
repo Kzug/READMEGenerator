@@ -4,15 +4,30 @@ const fs = require("fs");
 const generateReadme = (data) =>
   `# ${data.title}
   ![image](https://img.shields.io/badge/License-${data.license}-red)  
-  Application Description: ${data.description}  
-  Table of Contents: ${data.tableOfContents}  
-  Installation Instructions: ${data.installation}  
-  Usage Information: ${data.usage}  
-  Contribution Guidelines: ${data.contribution}     
-  Tests: ${data.test}  
-  License for Application: ${data.license}   
-  Questions: Please contact me at https://github.com/${data.github} or e-mail me at ${data.email}  
-  `;
+
+# Table of Contents  
+* [Description](#description)  
+* [Motivation for Building Application](#motivation-for-project)  
+* [Challenges](#challenges)
+* [Installation Instructions](#installation)
+* [Usage Information](#usage)  
+* [Contribution Guidelines](#contribution)  
+* [Tests](#tests)
+* [License for Application](#license)  
+* [Questions](#questions)
+
+
+
+## Description: ${data.description}
+## Motivation for Project: ${data.motivation}  
+## Challenges: ${data.challenges}
+## Installation Instructions: ${data.installation}  
+## Usage Information: ${data.usage}  
+## Contribution Guidelines: ${data.contribution}     
+## Tests: ${data.test}  
+## License for Application: ${data.license}   
+## Questions: Please contact me at https://github.com/${data.github} or e-mail me at ${data.email}
+`;
 
 inquirer
   .prompt([
@@ -28,8 +43,14 @@ inquirer
     },
     {
       type: "input",
-      name: "tableOfContents",
-      message: "Enter table of contents for your project:",
+      name: "motivation",
+      message: "Why you chose to build this application:",
+    },
+    {
+      type: "input",
+      name: "challenges",
+      message:
+        "Some challenges I ran into when I was building this application:",
     },
     {
       type: "input",
