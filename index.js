@@ -6,7 +6,7 @@ const generateReadme = (data) =>
   ![image](https://img.shields.io/badge/License-${data.license}-red)  
 
 # Table of Contents  
-* [Description](#description)  
+* [Description](#description:)  
 * [Motivation for Building Application](#motivation-for-project)  
 * [Challenges](#challenges)
 * [Installation Instructions](#installation)
@@ -14,11 +14,12 @@ const generateReadme = (data) =>
 * [Contribution Guidelines](#contribution)  
 * [Tests](#tests)
 * [License for Application](#license)  
-* [Questions](#questions)
+* [Questions](#questions:)
 
 
 
-## Description: ${data.description}
+## Description:
+ ${data.description}
 ## Motivation for Project: ${data.motivation}  
 ## Challenges: ${data.challenges}
 ## Installation Instructions: ${data.installation}  
@@ -26,7 +27,8 @@ const generateReadme = (data) =>
 ## Contribution Guidelines: ${data.contribution}     
 ## Tests: ${data.test}  
 ## License for Application: ${data.license}   
-## Questions: Please contact me at https://github.com/${data.github} or e-mail me at ${data.email}
+## Questions: 
+Please contact me at https://github.com/${data.github} or e-mail me at ${data.email}
 `;
 
 inquirer
