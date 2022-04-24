@@ -6,28 +6,35 @@ const generateReadme = (data) =>
   ![image](https://img.shields.io/badge/License-${data.license}-red)  
 
 # Table of Contents  
-* [Description](#description:)  
+* [Description](#description)  
 * [Motivation for Building Application](#motivation-for-project)  
 * [Challenges](#challenges)
-* [Installation Instructions](#installation)
-* [Usage Information](#usage)  
-* [Contribution Guidelines](#contribution)  
+* [Installation Instructions](#installation-instructions)
+* [Usage Information](#usage-information)  
+* [Contribution Guidelines](#contribution-guidelines)  
 * [Tests](#tests)
-* [License for Application](#license)  
-* [Questions](#questions:)
+* [License for Application](#license-for-application)  
+* [Questions](#questions)
 
 
 
-## Description:
+## Description
  ${data.description}
-## Motivation for Project: ${data.motivation}  
-## Challenges: ${data.challenges}
-## Installation Instructions: ${data.installation}  
-## Usage Information: ${data.usage}  
-## Contribution Guidelines: ${data.contribution}     
-## Tests: ${data.test}  
-## License for Application: ${data.license}   
-## Questions: 
+## Motivation for Project
+ ${data.motivation}  
+## Challenges
+ ${data.challenges}
+## Installation Instructions
+ ${data.installation}  
+## Usage Information
+ ${data.usage}  
+## Contribution Guidelines
+ ${data.contribution}     
+## Tests
+ ${data.test}  
+## License for Application
+ ${data.license}   
+## Questions
 Please contact me at https://github.com/${data.github} or e-mail me at ${data.email}
 `;
 
