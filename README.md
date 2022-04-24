@@ -1,5 +1,5 @@
-# a
-  ![image](https://img.shields.io/badge/License-MIT-red)  
+# Readme Generator
+  ![image](https://img.shields.io/badge/License-GPL-red)  
 
 # Table of Contents  
 * [Description](#description)  
@@ -15,20 +15,20 @@
 
 
 ## Description
- b
+ A project using node that generates a high-quality readme for the user
 ## Motivation for Project
- c  
+ class assignment and a way to make readme's easier   
 ## Challenges
- d
+ learning markdown syntax was a little tricky
 ## Installation Instructions
- e  
+ node installation is needed as well as the inquirer package and fs  
 ## Usage Information
- f  
+ Use by running node index.js in the terminal  
 ## Contribution Guidelines
- g     
+ N/A     
 ## Tests
- h  
+ You can test it by pulling the code from github, installing node, and running node index.js in the terminal  
 ## License for Application
- MIT   
+ GPL   
 ## Questions
-Please contact me at https://github.com/a or e-mail me at a
+Please contact me at https://github.com/Kzug or e-mail me at kierstenzug@gmail.com
