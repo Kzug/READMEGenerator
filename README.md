@@ -1,6 +1,6 @@
-# Bitcoin Tracker
+# Readme Generator
 
-![image](https://img.shields.io/badge/License-MIT-red)
+![image](https://img.shields.io/badge/License-GPL-red)
 
 # Table of Contents
 
@@ -16,23 +16,23 @@
 
 ## Description
 
-an application that displays the daily value of bitcoin
+A project using node that generates a high-quality readme for the user
 
 ## Motivation for Project
 
-a project for class, teammates were very interested in cryptocurrency, and it was a chance to do some cool stuff
+class assignment and a way to make readme's easier
 
 ## Challenges
 
-flexbox issues
+learning markdown syntax was a little tricky
 
 ## Installation Instructions
 
-none, just access to the internet
+node installation is needed as well as the inquirer package and fs
 
 ## Usage Information
 
-for anyone interested in bitcoin changes
+Use by running node index.js in the terminal
 
 ## Contribution Guidelines
 
@@ -40,12 +40,14 @@ N/A
 
 ## Tests
 
-Just go to github or the website and view the graph
+You can test it by pulling the code from github, installing node, and running node index.js in the terminal
 
 ## License for Application
 
-MIT
+GPL
 
 ## Questions
 
 Please contact me at https://github.com/Kzug or e-mail me at kierstenzug@gmail.com
+
+Link to video: https://www.youtube.com/watch?v=XhjQngCsMyE
